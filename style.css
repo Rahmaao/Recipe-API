@@ -1,0 +1,98 @@
+  body {
+    margin: 0;
+    background-color: #ffd8d8;
+}
+
+  .card {
+    border: 5px solid #ffffff;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    height: max-content;
+  }
+
+  #mealType{
+    background: #ffffff; 
+    border: 5px;
+  }
+
+  #search{
+    border: 0px; 
+    background-color: dimgrey; 
+    color: #ff7575; 
+    size: 12px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.container h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #F50057;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.container p{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+
+.container img{
+  width: 350px;
+
+}
+
+.grp {
+  width: 500px;
+  margin-bottom: 60px;
+}
+
+
+
+    @media (min-width: 100px) and (max-width: 520px) {
+
+
+      #mealType{
+        width: 200px;
+
+      }
+      .form-control{
+        width: 200px;
+
+      }
+      .grp {
+        width: 350px;
+      }
+      .container img{
+        width: 250px;
+      
+      }
+      .container{
+        padding-top: 80px;
+      }
+
+      
+
+    }
+
+
+    @media (min-width: 750px) and (max-width: 770px) {
+
+
+
+      .container{
+        padding-top: 130px;
+      }
+
+      
+
+    }
+ 
